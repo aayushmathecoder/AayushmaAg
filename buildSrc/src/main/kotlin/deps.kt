@@ -10,6 +10,10 @@ object Versions {
     const val junitTest = "4.+"
     const val espresso = "3.3.0"
     const val coroutines = "1.3.9"
+    const val retrofit = "2.9.0"
+    const val gson = "2.6.2"
+    const val gsonConvertor = "2.1.0"
+    const val loggingInterceptor = "3.4.1"
 }
 
 object deps {
@@ -40,6 +44,12 @@ object deps {
         }
         object kotlin {
             const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
+        }
+        object network {
+            const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+            const val gson = "com.google.code.gson:gson:${Versions.gson}"
+            const val gsonConvertor = "com.squareup.retrofit2:converter-gson:${Versions.gsonConvertor}"
+            const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"
         }
     }
 }

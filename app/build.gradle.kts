@@ -41,4 +41,8 @@ dependencies {
     androidTestImplementation(deps.android.testing.junit)
     androidTestImplementation(deps.android.testing.espresso)
     implementation(deps.android.core.coroutines)
+    implementation(deps.android.network.retrofit)
+    implementation(deps.android.network.gson)
+    implementation(deps.android.network.gsonConvertor)
+    implementation(deps.android.network.loggingInterceptor)
 }

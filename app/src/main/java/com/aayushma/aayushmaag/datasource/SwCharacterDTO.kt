@@ -1,6 +1,8 @@
 package com.aayushma.aayushmaag.datasource
 
-data class SwCharacter(
+import com.google.gson.annotations.SerializedName
+
+data class SwCharacterDTO(
     val name: String,
     val height: String,
     val gender: String,
